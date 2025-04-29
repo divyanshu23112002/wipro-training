@@ -31,6 +31,5 @@ public class HelloWorld
             Console.WriteLine ("{0} X {1} ={2} \n",n,i,n*i);
         
         }
-        
     }
 }
