@@ -9,11 +9,12 @@ public class HelloWorld
     {
         Console.Write("Enter a number : ");
         int n=int.Parse(Console.ReadLine());
-        int sum=0;
+        int rev=0;
         while(n!=0){
-            sum+=n%10;
+            int d=n%10;
+            rev=rev*10+d;
             n/=10;
         }
-        Console.WriteLine(sum);
+        Console.WriteLine(rev);
     }
 }
