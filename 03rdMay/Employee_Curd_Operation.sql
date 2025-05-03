@@ -29,3 +29,18 @@ select firstname, department from employees where salary>47000;
 select firstname,salary from employees  where department='Mathematics';
 
 select firstname,LastName from employees  where HireDate='2022-02-02';
+
+
+Update Employees set salary=54000 where EmployeeID=1;
+Update Employees set salary=65000 where EmployeeID=2;
+Update Employees set salary=74000 where EmployeeID=3;
+
+
+delete from employees where EmployeeID=1;
+delete from employees where salary=74000;
+
+truncate table employees;
+
+drop table employees;
+
+
