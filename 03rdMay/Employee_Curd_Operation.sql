@@ -26,4 +26,6 @@ select * from emloyees;
 
 select firstname, department from employees where salary>47000;
 
-select firstname,salary from employees  where Department='Mathematics';
+select firstname,salary from employees  where department='Mathematics';
+
+select firstname,LastName from employees  where HireDate='2022-02-02';
