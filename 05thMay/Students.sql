@@ -81,4 +81,12 @@ commit;
 Over() -- defines the "Window " over which function operates.
 what are window function ?
 Window function perform calculations accross a set of rows(a window) related to the current row without collapsing rows like GROUP BY. */
-Select Name,department,salary avg(salary) over() as AVGSALARY from emloyees;  -- calculate average of all rows
+Select Name,department,salary ,avg(salary) over() as AVGSALARY from epmloyees;  -- calculate average of all rows
+
+/* Partition by(Group-wise Analysis) */
+select Name,department,salary,avg(salary) over(Partition by department)as DeptAvgSalary from employees;
+--Partition the data by department, then calculates the average salary with each group
+
+/* Ranking Function -- Row_Number()  */
+select Name,department,salary,Row_Number() over(Partition by department order by salary desc) as ROWNUM from employees;
+
