@@ -3,3 +3,9 @@ select p.ProductID,p.ProductName , sum(o.Quantity * p.price) as TotalRevenue fro
 products p ON o.ProductID=p.ProductID where o.ProductID=@ProductID group by p.ProductID,p.ProductName END;  
 
 exec getProductRevenue @productID=1;
+
+
+
+
+
+
