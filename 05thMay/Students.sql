@@ -25,3 +25,14 @@ Insert into Employees(EmpID,Name,Department,salary,JoinDate) values
 (2,'Priya','Finance',60000,'2020-09-15'),
 (3,'Amit','IT',75000,'2019-01-10'),
 (4,'Sara','IT',72000,'2023-02-25');
+
+
+/* Scaler Function */
+/* Convert Student Names into UpperCase */ 
+Select FirstName, upper(FirstName) as UPPERNME from students;
+
+/* Get Age of Each Student */
+Select FirstName, DATEDIFF(YEAR,DOB,GETDATE()) as AGE from students;
+
+/* Rounded off Salary to Nearest 1000 */
+Select Name,Round(salary,-3) as RoundedSalary from employees;
