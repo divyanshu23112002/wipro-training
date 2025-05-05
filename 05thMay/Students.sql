@@ -36,3 +36,13 @@ Select FirstName, DATEDIFF(YEAR,DOB,GETDATE()) as AGE from students;
 
 /* Rounded off Salary to Nearest 1000 */
 Select Name,Round(salary,-3) as RoundedSalary from employees;
+
+ /*Aggregate Function */
+ /*Total Number of Students */
+select count(*) from students;
+
+/* Average marks of all students */
+Select avg(Marks) as AVGMARKS from students;
+
+/* Highest Salary in Each Department */
+Select Department,max(salary) as HighestSalary from employees group by Department;
