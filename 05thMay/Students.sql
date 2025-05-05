@@ -46,3 +46,12 @@ Select avg(Marks) as AVGMARKS from students;
 
 /* Highest Salary in Each Department */
 Select Department,max(salary) as HighestSalary from employees group by Department;
+
+/* Grade Student Based on Marks */
+Select FirstName,Marks, case when Marks>=90 then 'A'
+when Marks>=75 then 'B'
+when Marks>=60 then 'C' else 'D' END as Grade from students;
+
+/* Categorize Employees by Salary */
+select Name, Salary, case when salary>=75000 then 'High'
+when salary>=50000 then 'Medium' else 'Low' end as SalaryBand from employees;
