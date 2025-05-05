@@ -77,3 +77,8 @@ Rollback Transaction increaseJohn;
 commit;
 
 
+/* Over() Clause Basics
+Over() -- defines the "Window " over which function operates.
+what are window function ?
+Window function perform calculations accross a set of rows(a window) related to the current row without collapsing rows like GROUP BY. */
+Select Name,department,salary avg(salary) over() as AVGSALARY from emloyees;  -- calculate average of all rows
