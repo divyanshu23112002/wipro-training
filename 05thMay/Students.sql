@@ -55,3 +55,25 @@ when Marks>=60 then 'C' else 'D' END as Grade from students;
 /* Categorize Employees by Salary */
 select Name, Salary, case when salary>=75000 then 'High'
 when salary>=50000 then 'Medium' else 'Low' end as SalaryBand from employees;
+
+/* Simple Transaction with commit */
+Begin Transaction;
+Update Employees set salary=salary+2000 where department='IT';
+Commit;
+
+/* Roollback on Mistake */
+Begin Transaction;
+delete from students where<60;
+--Realized it's a mistake
+RollBack;
+
+/* Savepoint with Rollback To */
+Begin Transaction;
+Update Employees set salary=salary+1000 where EmpID=1;
+save Transaction increaseJohn;
+Update employees set salary=salary+1000 where EmpID=2;
+--oops,Rollback second increament only
+Rollback Transaction increaseJohn;
+commit;
+
+
