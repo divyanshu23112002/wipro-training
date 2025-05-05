@@ -36,3 +36,20 @@ Orders.OrderDate from products right join  orders ON Orders.OrderID=Products.Pro
 
 select products.ProductName,sum(Orders.Quantity) as TotalUnitSold from order 
 inner join products  ON Orders.OrderID=Products.ProductID group by Products.ProductName;
+
+
+Create Procedure getallproducts as begin select * from products end;  
+
+exec getallproducts;
+
+select p.ProductID,p.ProductName,p.Price ,'HigherEnd Product' as
+Product_category from products p join Orders o ON p.ProductID=o.OrderID where
+p.price > 60000;
+
+create Procedure getOrdersByProduct @ProductID Int as begin
+select o.OrderID,o.Quantity,o.OrderDate,p.ProductName,p.price from Orders o inner join
+products p On o.ProductID=p.ProductID where o.ProductID=@ProductID
+END;
+
+EXEC getOrdersByProduct @ProductID=1;
+
