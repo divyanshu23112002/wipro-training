@@ -90,3 +90,5 @@ select Name,department,salary,avg(salary) over(Partition by department)as DeptAv
 /* Ranking Function -- Row_Number()  */
 select Name,department,salary,Row_Number() over(Partition by department order by salary desc) as ROWNUM from employees;
 
+/* Rank() */
+Select Name,Salary,Rank() over(order by salary desc) as RankBySalary from employees;
