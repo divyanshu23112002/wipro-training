@@ -26,7 +26,7 @@ public class CreditCard:Payment
 
     public override void ProcessingPayment()
     {
-        Console.WriteLine($"Processing Credit Card Payment of {Amount} {currency} usin card Number : {cardNumber}");
+        Console.WriteLine($"Processing Credit Card Payment of {Amount} {currency} using card Number : {cardNumber}");
     }
 
 }
