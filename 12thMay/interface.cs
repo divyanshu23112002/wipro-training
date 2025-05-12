@@ -1,20 +1,36 @@
-interface IShape
+interface IPayment
 {
-    void Draw();
+    void ProcessPayment(decimal amount);
 }
 
-class Circle:IShape
+//Implementing the Interface
+
+class CreditCardPayment:IPayment
 {
-    public void Draw()
+    public void ProcessPayment(decimal amount)
     {
-        Console.WriteLine("Drwaing a Circle");
+        Console.WriteLine($"Processing credit card payment of {amount}");
     }
 }
+
+class PayPalPayment:IPayment
+{
+    public void ProcessPayment(decimal amount)
+    {
+        Console.WriteLine($"Proceesing PayPal Payment of {amount}");
+    }
+}
+
 class Program
 {
     static void Main()
     {
-        Circle c=new Circle();
-        c.Draw();
+        IPayment payment;
+
+        payment=new CreditCardPayment();
+        payment.ProcessPayment(1500.50m);
+
+        payment=new PayPalPayment();
+        payment.ProcessPayment(2500.75m);
     }
 }
