@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|c:\\users\\admin\\source\\repos\\webapplication5\\webapplication5\\migrations\\20250515101600_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\migrations\\20250515101600_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|c:\\users\\admin\\source\\repos\\webapplication5\\webapplication5\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|c:\\users\\admin\\source\\repos\\webapplication5\\webapplication5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|c:\\users\\admin\\source\\repos\\webapplication5\\webapplication5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|c:\\users\\admin\\source\\repos\\webapplication5\\webapplication5\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E297554-E55D-4727-B556-E77F324EF546}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250515101600_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Migrations\\20250515101600_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Migrations\\20250515101600_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Migrations\\20250515101600_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication5\\Migrations\\20250515101600_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:16:00.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "WebApplication5\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:14:22.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Models\\Employees.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Models\\Employees.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Models\\Employees.cs",
+              "RelativeToolTip": "WebApplication5\\Models\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:55:58.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Program.cs",
+              "RelativeToolTip": "WebApplication5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:52:04.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication5\\WebApplication5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication5\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:51:46.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
