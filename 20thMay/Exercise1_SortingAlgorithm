@@ -1,70 +1,104 @@
 using System;
+using System.Diagnostics;
 
 class Program
 {
-    static (int index, int comparisons) LinearSearch(int[] arr, int key)
+    // Bubble Sort
+    public static void BubbleSort(int[] arr)
     {
-        int comparisons = 0;
-        for (int i = 0; i < arr.Length; i++)
-        {
-            comparisons++;
-            if (arr[i] == key)
-                return (i, comparisons);
-        }
-        return (-1, comparisons);
+        int n = arr.Length;
+        for (int i = 0; i < n - 1; i++)
+            for (int j = 0; j < n - i - 1; j++)
+                if (arr[j] > arr[j + 1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
     }
 
-    static (int index, int comparisons) BinarySearch(int[] arr, int key)
+    // Selection Sort
+    public static void SelectionSort(int[] arr)
     {
-        int low = 0, high = arr.Length - 1, comparisons = 0;
-
-        while (low <= high)
+        int n = arr.Length;
+        for (int i = 0; i < n - 1; i++)
         {
-            comparisons++;
-            int mid = (low + high) / 2;
-            if (arr[mid] == key)
-                return (mid, comparisons);
-            else if (arr[mid] < key)
-                low = mid + 1;
-            else
-                high = mid - 1;
-        }
+            int minIdx = i;
+            for (int j = i + 1; j < n; j++)
+                if (arr[j] < arr[minIdx])
+                    minIdx = j;
 
-        return (-1, comparisons);
+            int temp = arr[minIdx];
+            arr[minIdx] = arr[i];
+            arr[i] = temp;
+        }
     }
 
-    static int[] GenerateSortedArray(int size, int max)
+    // Insertion Sort
+    public static void InsertionSort(int[] arr)
+    {
+        int n = arr.Length;
+        for (int i = 1; i < n; ++i)
+        {
+            int key = arr[i];
+            int j = i - 1;
+
+            while (j >= 0 && arr[j] > key)
+            {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+            arr[j + 1] = key;
+        }
+    }
+
+
+    public static void PrintArray(int[] arr)
+    {
+        Console.WriteLine(string.Join(", ", arr));
+    }
+
+   
+    public static int[] GenerateRandomArray(int size, int min = 1, int max = 100)
     {
         Random rnd = new Random();
         int[] arr = new int[size];
-        arr[0] = rnd.Next(1, 5);
-        for (int i = 1; i < size; i++)
-            arr[i] = arr[i - 1] + rnd.Next(1, 5);
+        for (int i = 0; i < size; i++)
+            arr[i] = rnd.Next(min, max + 1);
         return arr;
     }
 
-    static void RunTest(string label, int[] arr, int key)
+    static void Main(string[] args)
     {
-        Console.WriteLine($"\n{label}");
-        Console.WriteLine($"Searching for {key}");
+        int[] original = GenerateRandomArray(20);
+        Console.WriteLine("Original Array:");
+        PrintArray(original);
 
-        var (index1, comp1) = LinearSearch(arr, key);
-        Console.WriteLine($"Linear Search: Index = {index1}, Comparisons = {comp1}");
+        // Bubble Sort
+        int[] bubble = (int[])original.Clone();
+        Stopwatch sw = Stopwatch.StartNew();
+        BubbleSort(bubble);
+        sw.Stop();
+        Console.WriteLine("\nBubble Sort:");
+        PrintArray(bubble);
+        Console.WriteLine("Time Taken: " + sw.ElapsedTicks + " ticks");
 
-        var (index2, comp2) = BinarySearch(arr, key);
-        Console.WriteLine($"Binary Search: Index = {index2}, Comparisons = {comp2}");
-    }
+        // Selection Sort
+        int[] selection = (int[])original.Clone();
+        sw.Restart();
+        SelectionSort(selection);
+        sw.Stop();
+        Console.WriteLine("\nSelection Sort:");
+        PrintArray(selection);
+        Console.WriteLine("Time Taken: " + sw.ElapsedTicks + " ticks");
 
-    static void Main()
-    {
-        // Small list
-        int[] small = GenerateSortedArray(10, 50);
-        int key1 = small[new Random().Next(small.Length)];
-        RunTest("Small List (10 elements)", small, key1);
-
-        // Large list
-        int[] large = GenerateSortedArray(1000, 2000);
-        int key2 = large[new Random().Next(large.Length)];
-        RunTest("Large List (1000 elements)", large, key2);
+        // Insertion Sort
+        int[] insertion = (int[])original.Clone();
+        sw.Restart();
+        InsertionSort(insertion);
+        sw.Stop();
+        Console.WriteLine("\nInsertion Sort:");
+        PrintArray(insertion);
+        Console.WriteLine("Time Taken: " + sw.ElapsedTicks + " ticks");
     }
 }
