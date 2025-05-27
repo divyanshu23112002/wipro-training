@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Migrations\\20250527063630_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication11\\Migrations\\20250527063630_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{877E590A-17A2-485C-ADC9-1040FB72DA65}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250527063630_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Migrations\\20250527063630_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Migrations\\20250527063630_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Migrations\\20250527063630_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication11\\Migrations\\20250527063630_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:36:30.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:34:50.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:33:17.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:31:24.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:30:00.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:28:07.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T06:26:53.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApplication11\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAYwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:26:15.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication11\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:24:55.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\Contact.cs",
+              "RelativeToolTip": "WebApplication11\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:23:27.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplication11\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:22:17.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Program.cs",
+              "RelativeToolTip": "WebApplication11\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:21:06.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApplication11\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:19:30.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication11\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\appsettings.json",
+              "RelativeToolTip": "WebApplication11\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T06:16:09.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
