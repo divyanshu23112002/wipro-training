@@ -8,10 +8,11 @@ class Program
         string connectionString =
             "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Northwind;" +
             "Integrated Security=true";
-        
+        int employeeId = 1;
+        string newTitle = "Senior Sales Representative";
+
         string queryString = @"
-            Insert into Products(ProductName,SupplierID,CategoryID,UnitPrice)
-            values (@ProductName,@SupplierID,@CategoryID,@UnitPrice)";
+           Update Employees Set Title=@NewTitle Where EmployeeID=@EmployeeID";
 
             
             
@@ -19,10 +20,9 @@ class Program
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
             SqlCommand command = new SqlCommand(queryString, connection);
-            command.Parameters.AddWithValue("@ProductName","Test Product");
-            command.Parameters.AddWithValue("@SupplierID", 1);
-            command.Parameters.AddWithValue("CategoryID", 1);
-            command.Parameters.AddWithValue("@UnitPrice", 25.00);
+            command.Parameters.AddWithValue("@NewTitle",newTitle);
+            command.Parameters.AddWithValue("@EmployeeID", employeeId);
+
 
             connection.Open();
 
