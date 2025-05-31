@@ -69,7 +69,7 @@ class Program
         t2.Join();
         t3.Join();
 
-        Console.WriteLine($"\nTotal lines across all files: {FileProcessor.GetTotalLines()}");
+        Console.WriteLine($"\nTotal lines across all file: {FileProcessor.GetTotalLines()}");
     }
 
     static void CreateSampleFile(string filename, int lines)
