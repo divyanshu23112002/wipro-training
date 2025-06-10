@@ -1,0 +1,18 @@
+﻿@model Microsoft.AspNetCore.Diagnostics.IExceptionHandlerPathFeature
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Oops! Something went wrong.</h1>
+<p class="text-danger">An unexpected error occurred.</p>
+
+@if (Model != null)
+{
+    <div class="alert alert-warning">
+        <p><strong>Path:</strong> @Model.Path</p>
+        <p><strong>Error:</strong> @Model.Error.Message</p>
+    </div>
+}
+
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Go Home</a>
