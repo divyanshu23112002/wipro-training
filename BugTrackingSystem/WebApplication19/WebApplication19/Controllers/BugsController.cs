@@ -13,6 +13,8 @@ namespace WebApplication19.Controllers
     public class BugsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly List<string> _validStatuses = new() { "Open", "In Progress", "Testing", "Closed" };
+        private readonly List<string> _validSeverities = new() { "Low", "Medium", "High", "Critical" };
 
         public BugsController(ApplicationDbContext context)
         {
@@ -46,22 +48,37 @@ namespace WebApplication19.Controllers
         // GET: Bugs/Create
         public IActionResult Create()
         {
+            ViewBag.StatusList = new SelectList(_validStatuses);
+            ViewBag.SeverityList = new SelectList(_validSeverities);
             return View();
         }
 
         // POST: Bugs/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Description,Severity,Status,Assignee,ReportedDate")] Bug bug)
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,Severity,Status,Assignee")] Bug bug)
         {
+            // Validate status and severity
+            if (!_validStatuses.Contains(bug.Status))
+            {
+                ModelState.AddModelError("Status", "Invalid status value");
+            }
+
+            if (!_validSeverities.Contains(bug.Severity))
+            {
+                ModelState.AddModelError("Severity", "Invalid severity value");
+            }
+
             if (ModelState.IsValid)
             {
+                bug.ReportedDate = DateTime.Now;
                 _context.Add(bug);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            ViewBag.StatusList = new SelectList(_validStatuses);
+            ViewBag.SeverityList = new SelectList(_validSeverities);
             return View(bug);
         }
 
@@ -78,12 +95,13 @@ namespace WebApplication19.Controllers
             {
                 return NotFound();
             }
+
+            ViewBag.StatusList = new SelectList(_validStatuses);
+            ViewBag.SeverityList = new SelectList(_validSeverities);
             return View(bug);
         }
 
         // POST: Bugs/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,Severity,Status,Assignee,ReportedDate")] Bug bug)
@@ -91,6 +109,17 @@ namespace WebApplication19.Controllers
             if (id != bug.Id)
             {
                 return NotFound();
+            }
+
+            // Validate status and severity
+            if (!_validStatuses.Contains(bug.Status))
+            {
+                ModelState.AddModelError("Status", "Invalid status value");
+            }
+
+            if (!_validSeverities.Contains(bug.Severity))
+            {
+                ModelState.AddModelError("Severity", "Invalid severity value");
             }
 
             if (ModelState.IsValid)
@@ -113,6 +142,9 @@ namespace WebApplication19.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
+            ViewBag.StatusList = new SelectList(_validStatuses);
+            ViewBag.SeverityList = new SelectList(_validSeverities);
             return View(bug);
         }
 
@@ -152,6 +184,34 @@ namespace WebApplication19.Controllers
         private bool BugExists(int id)
         {
             return _context.Bugs.Any(e => e.Id == id);
+        }
+
+        // New action for getting status symbol
+        public IActionResult GetStatusSymbol(string status)
+        {
+            var symbol = status switch
+            {
+                "Open" => "🟢",
+                "In Progress" => "🟡",
+                
+                "Closed" => "🔴",
+                _ => ""
+            };
+            return Content(symbol);
+        }
+
+        // New action for getting severity symbol
+        public IActionResult GetSeveritySymbol(string severity)
+        {
+            var symbol = severity switch
+            {
+                "Low" => "⬇️",
+                "Medium" => "⏺️",
+                "High" => "⬆️",
+                
+                _ => ""
+            };
+            return Content(symbol);
         }
     }
 }

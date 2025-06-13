@@ -20,3 +20,34 @@ html {
 body {
   margin-bottom: 60px;
 }
+body {
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+    /* Diagonal Repeating Watermark Pattern */
+    body::before {
+        content: "";
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        right: -50%;
+        bottom: -50%;
+        background-image: repeating-linear-gradient( -30deg, transparent, transparent 200px, rgba(0, 79, 159, 0.03) 200px, rgba(0, 79, 159, 0.03) 400px ), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300"><text x="300" y="150" font-family="Arial" font-size="80" fill="%23004F9F" fill-opacity="0.03" text-anchor="middle" dominant-baseline="middle" transform="rotate(-30 300 150)">RPS WIPRO</text></svg>');
+        background-repeat: repeat;
+        z-index: -2147483647; /* Minimum possible z-index */
+        pointer-events: none;
+        user-select: none;
+        animation: watermark-scroll 120s linear infinite;
+    }
+
+@keyframes watermark-scroll {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 400px 400px;
+    }
+}

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - WebApplication19</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -126,10 +127,59 @@
             object-fit: cover;
             margin-right: 10px;
         }
+        /* Status badges */
+        .status-badge {
+            font-weight: 500;
+            padding: 3px 8px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        .status-open {
+            background-color: #e6f7e6;
+            color: #2e7d32;
+        }
+
+        .status-inprogress {
+            background-color: #fff8e6;
+            color: #ff8f00;
+        }
+
+
+        .status-closed {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+
+        /* Severity indicators */
+       
+
+        .severity-high {
+            font-weight: 500;
+            color: #f57c00;
+        }
+
+
+        .watermark-fallback {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 300%;
+            height: 300%;
+            background-image: repeating-linear-gradient( -30deg, transparent, transparent 200px, rgba(0, 79, 159, 0.03) 200px, rgba(0, 79, 159, 0.03) 400px );
+            z-index: -2147483647;
+            pointer-events: none;
+        }
+
+
+
     </style>
 
 </head>
 <body>
+   
+       
+   
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -157,6 +207,27 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <svg style="position:fixed; top:0; left:0; width:0; height:0;">
+                <pattern id="watermark-pattern" patternUnits="userSpaceOnUse" width="600" height="300">
+                    <text x="300" y="150"
+                          font-family="Arial"
+                          font-size="80"
+                          fill="#004F9F"
+                          fill-opacity="0.03"
+                          text-anchor="middle"
+                          transform="rotate(-30 300 150)">RPS WIPRO</text>
+                </pattern>
+            </svg>
+
+            <script>
+                    // Feature detection fallback
+                    if (!CSS.supports('background-image', 'url("data:image/svg+xml")')) {
+                        const fallback = document.createElement('div');
+                        fallback.className = 'watermark-fallback';
+                        fallback.style.backgroundImage = 'url(#watermark-pattern)';
+                        document.body.appendChild(fallback);
+                    }
+                    </script>
         </main>
     </div>
 
